@@ -32,6 +32,7 @@
   ],
   "exclude": [
     "node_modules",
+    "scripts",
     "check_accounts.ts",
     "create_and_test_accounts.py",
     "test_*.py",
