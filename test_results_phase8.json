@@ -1,0 +1,29 @@
+{
+  "codeQuality": {
+    "consoleLogs": 2,
+    "anyTypes": 1,
+    "files": [
+      "lib/email/index.ts (2개)"
+    ]
+  },
+  "files": {
+    "components/common/error-boundary.tsx": true
+  },
+  "improvements": {
+    "dashboard-skeleton": false,
+    "ticket-list-skeleton": false,
+    "dashboard-error-boundary": true,
+    "ticket-list-callback": true,
+    "status-zod-validation": true
+  },
+  "build": {
+    "success": true,
+    "errors": 0
+  },
+  "summary": {
+    "filesTotal": 1,
+    "filesExist": 1,
+    "improvementsTotal": 5,
+    "improvementsPassed": 3
+  }
+}

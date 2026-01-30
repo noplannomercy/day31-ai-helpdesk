@@ -1,0 +1,28 @@
+{
+  "files": {
+    "lib/email/index.ts": true,
+    "lib/email/templates/ticket-created.tsx": true,
+    "lib/email/templates/ticket-reply.tsx": true,
+    "lib/email/templates/sla-warning.tsx": true,
+    "lib/email/templates/sla-violated.tsx": true,
+    "lib/services/sla-service.ts": true,
+    "lib/services/notification-service.ts": true,
+    "app/api/cron/sla-check/route.ts": true
+  },
+  "schema": {
+    "slaFields": true
+  },
+  "services": {
+    "sla-service": true,
+    "notification-service": true,
+    "email": true
+  },
+  "summary": {
+    "filesTotal": 8,
+    "filesExist": 8,
+    "schemaChecks": 1,
+    "schemaPassed": 1,
+    "servicesTotal": 3,
+    "servicesPassed": 3
+  }
+}

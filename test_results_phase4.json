@@ -1,0 +1,27 @@
+{
+  "files": {
+    "app/api/knowledge-base/route.ts": true,
+    "app/api/knowledge-base/[id]/route.ts": true,
+    "app/api/templates/route.ts": true,
+    "app/api/templates/[id]/route.ts": true,
+    "app/(admin)/knowledge-base/page.tsx": true,
+    "app/(admin)/templates/page.tsx": true,
+    "components/admin/knowledge-base-management.tsx": true,
+    "components/admin/knowledge-base-form.tsx": true,
+    "components/admin/template-management.tsx": true,
+    "components/admin/template-form.tsx": true,
+    "hooks/use-toast.ts": true
+  },
+  "db": {
+    "tables": true,
+    "knowledgeBasesCount": 0,
+    "templatesCount": 0,
+    "categoriesCount": 5
+  },
+  "summary": {
+    "filesTotal": 11,
+    "filesExist": 11,
+    "dbChecks": 5,
+    "dbPassed": 5
+  }
+}

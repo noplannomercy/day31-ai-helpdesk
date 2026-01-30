@@ -1,0 +1,33 @@
+{
+  "files": {
+    "app/api/tickets/[id]/satisfaction/route.ts": true,
+    "app/api/reports/overview/route.ts": true,
+    "app/api/reports/satisfaction/route.ts": true,
+    "app/api/reports/sla/route.ts": true,
+    "app/(main)/reports/page.tsx": true,
+    "components/reports/reports-dashboard.tsx": true,
+    "components/reports/stats-overview.tsx": true,
+    "components/reports/satisfaction-chart.tsx": true,
+    "components/reports/ticket-chart.tsx": true,
+    "components/reports/date-range-picker.tsx": true,
+    "components/tickets/satisfaction-form.tsx": true,
+    "components/tickets/satisfaction-prompt.tsx": true
+  },
+  "schema": {
+    "tableExists": true,
+    "columnsValid": true,
+    "tableAccessible": true
+  },
+  "dependencies": {
+    "recharts": true,
+    "date-fns": true
+  },
+  "summary": {
+    "filesTotal": 12,
+    "filesExist": 12,
+    "schemaChecks": 3,
+    "schemaPassed": 3,
+    "depsTotal": 2,
+    "depsPassed": 2
+  }
+}

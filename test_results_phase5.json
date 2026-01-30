@@ -1,0 +1,34 @@
+{
+  "files": {
+    "lib/ai/openrouter.ts": true,
+    "lib/ai/prompts.ts": true,
+    "lib/services/ai-service.ts": true,
+    "app/api/ai/classify/route.ts": true,
+    "app/api/ai/suggest/route.ts": true,
+    "app/api/ai/sentiment/route.ts": true,
+    "app/api/ai/similar/route.ts": true,
+    "components/ai/ai-response-panel.tsx": true,
+    "components/ai/sentiment-badge.tsx": true,
+    "components/ai/similar-tickets.tsx": true,
+    "components/ai/category-suggestion.tsx": true,
+    "components/ui/skeleton.tsx": true,
+    "components/ai/index.ts": true
+  },
+  "integration": {
+    "ticket-form.tsx": true,
+    "ticket-detail.tsx": true,
+    "ticket-card.tsx": true
+  },
+  "db": {
+    "knowledgeBasesAccessible": true,
+    "templatesAccessible": true
+  },
+  "summary": {
+    "filesTotal": 13,
+    "filesExist": 13,
+    "integrationTotal": 3,
+    "integrationPassed": 3,
+    "dbChecks": 2,
+    "dbPassed": 2
+  }
+}

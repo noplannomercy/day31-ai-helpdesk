@@ -1,0 +1,14 @@
+=== Test Accounts ===
+
+Customer:
+  Email: testcustomer@test.com
+  Password: Test1234!
+  Name: Test Customer
+
+Agent (requires manual creation):
+  Email: testagent@test.com
+  Password: Agent1234!
+  Name: Test Agent
+  Role: agent
+  Status: active
+  Is Online: true
