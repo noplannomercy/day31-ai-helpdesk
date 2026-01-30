@@ -30,5 +30,11 @@
     ".next/dev/types/**/*.ts",
     "**/*.mts"
   ],
-  "exclude": ["node_modules"]
+  "exclude": [
+    "node_modules",
+    "check_accounts.ts",
+    "create_and_test_accounts.py",
+    "test_*.py",
+    "test-screenshots"
+  ]
 }
